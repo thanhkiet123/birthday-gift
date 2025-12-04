@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday 🎉</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div id="balloon-container"></div>
+
+<body>
+
+    <!-- Bóng bay -->
+    <div class="balloons"></div>
+
+    <h1 class="title">🎉 Happy Birthday 🎂</h1>
+
+    <!-- Khung chứa ảnh + lời chúc -> ẨN BAN ĐẦU -->
+    <div id="surpriseBox" class="card hidden">
+        <img src="friend.jpg" class="avatar" alt="Avatar">
+        <p class="wish">
+            Chúc PINK CHUM có một ngày sinh nhật ngập tràn niềm vui,  
+            hạnh phúc và thật nhiều điều bất ngờ dễ thương!  
+            Tuổi mới bình an – may mắn – thành công hơn nữa nhé 💖🎁
+        </p>
+    </div>
+
+    <!-- Nút bấm nhận bất ngờ -->
+    <button id="startBtn" class="glow-btn">Click để nhận bất ngờ 🎁</button>
+
+    <!-- Pháo hoa -->
+    <canvas id="fireworks"></canvas>
+
+    <!-- Nhạc -->
+    <audio id="birthdayAudio" src="happy-birthday-334876.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
